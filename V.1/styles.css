@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url('Fuentes/OpenDyslexic3-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('Fuentes/OpenDyslexic3-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fuentes/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Fuentes/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+.mi-fuente {
+    font-family: 'MiFuente';
+    font-size: 0.875rem; 
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+body {   
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+#superior{
+    display: flex;
+    justify-content: flex-end;
+}
+.contenedor {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.post {
+    padding: 10px;
+}
+
+.titulo {
+    display: flex;    
+    justify-content: flex-start; 
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+.titulo h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.titulo p {
+    justify-content: end;
+    font-size: 14px;
+    color: #8e8e8e;
+    margin: 0;
+}
+
+
+.icono-user {
+    width: 40px; 
+    height: 40px; 
+}
+
+.texto {
+    display: flex;
+    flex-direction: column; /* Organiza el propietario y el título en una columna */
+    margin-left: 10px; /* Añade un margen a la izquierda del texto */
+}
+
+.menu-button {
+    margin-left: auto;
+    width: 40px; 
+    height: 40px; 
+}
+.menu-button:hover {
+	transform: scale(1.25) translateZ(20px);
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.post div {
+    font-size: 16px;
+    color: #262626;
+}
+ .iconos {
+    display: flex;    
+    justify-content: flex-start; 
+    align-items: start;
+}
+
+.item-ico {
+    margin: 0;
+    padding: 10px; 
+    width: 40px; 
+    height: 40px; 
+}
+.item-ico:hover {
+	transform: scale(1.25) translateZ(20px);
+}
+
+
+
+.item-ico:last-child {
+    margin-left: auto;
+    width: 50px; 
+    height: 50px; 
+}
+
