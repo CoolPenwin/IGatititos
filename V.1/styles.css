@@ -25,6 +25,7 @@
 .mi-fuente {
     font-family: 'MiFuente';
     font-size: 0.875rem; 
+    
 }
 
 .roboto {
@@ -35,7 +36,12 @@ body {
     background-color: #fafafa;
     margin: 0;
     padding: 0;
+    cursor: url('https://cdn.custom-cursor.com/db/4656/32/arrow2662.png'), default !important;
 }
+a:hover, input:hover, button:hover {
+    cursor: url('https://cdn.custom-cursor.com/db/4655/32/arrow2662.png'), pointer !important;
+}
+
 #superior{
     display: flex;
     justify-content: flex-end;
