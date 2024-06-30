@@ -23,6 +23,8 @@ likeButtons.forEach(button => {
         // Selecciona los íconos dentro del botón que fue clicado
         const noLikeIcon = this.querySelector('.no-like');
         const likeIcon = this.querySelector('.like');
+        // Selecciona el contenedor del post más cercano
+        const postDiv = this.closest('.contenedor');
         
         // Cambia el estado de los íconos
         if (noLikeIcon.style.display === 'none') {
@@ -31,6 +33,11 @@ likeButtons.forEach(button => {
         } else {
             noLikeIcon.style.display = 'none';
             likeIcon.style.display = 'inline';
+        }
+        
+        // Aplica el efecto de torcimiento si el likeIcon está visible y se va a ocultar
+        if ('click' && likeIcon.style.display === 'none') {
+            postDiv.style.transform = 'rotate(10deg)';
         }
     });
 });
