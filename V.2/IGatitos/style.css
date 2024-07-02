@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'MiFuente';
-    src: url('/IGatitos/fonts/Cattyla.ttf') format('truetype');
+    src: url('./IGatitos/fonts/Cattyla.ttf') format('truetype');
 }
 @font-face {
     font-family: 'MiFuente2';
-    src: url('/IGatitos/fonts/Cat paw.ttf') format('truetype');
+    src: url('./IGatitos/fonts/Cat paw.ttf') format('truetype');
 }
 
 /* Usar la fuente */
