@@ -11,6 +11,7 @@
 body {
     font-family: 'MiFuente', sans-serif;
     cursor: url('https://cdn.custom-cursor.com/db/4656/32/arrow2662.png'), default !important;
+    min-height: 100vh;
 }
 
 a:hover, input:hover, button:hover {
